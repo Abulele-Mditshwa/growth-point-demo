@@ -1,0 +1,230 @@
+{
+  "_comment": "Mock Growthpoint knowledge corpus for the RAG PoC. All content is fictional sample data created for demonstration only. Each document has an access_level used for permission-aware retrieval: public < staff < management.",
+  "documents": [
+    {
+      "id": "POL-001",
+      "title": "Tenant Parking & Access Policy",
+      "category": "Policy",
+      "access_level": "public",
+      "doc_ref": "GP-POL-001 v3.2",
+      "section": "Section 4 — Visitor & Tenant Parking",
+      "content": "Each office tenant is allocated parking bays at a ratio of 1 bay per 25 square metres of leased GLA (gross lettable area) unless the lease schedule states otherwise. Visitor parking is available on a first-come basis in demarcated yellow bays and is capped at 2 hours during business hours (07:00 to 18:00). After-hours access to parking basements requires an activated access tag; tags are issued by Building Management on receipt of a signed access indemnity. Lost tags carry a replacement fee of R350 and must be reported within 24 hours so the tag can be de-activated."
+    },
+    {
+      "id": "POL-002",
+      "title": "Sustainability & Green Building Policy",
+      "category": "Policy",
+      "access_level": "public",
+      "doc_ref": "GP-POL-014 v2.0",
+      "section": "Section 2 — Energy & Water Targets",
+      "content": "Growthpoint is committed to creating space to thrive through responsible environmental management. All A-grade office buildings target a minimum 4-Star Green Star SA rating. Buildings are fitted with smart metering for electricity and water, and consumption data is reported to tenants monthly. The wheeled renewable energy programme supplies qualifying buildings with contracted green power, giving tenants verifiable green attributes and more stable supply during loadshedding. Tenants are encouraged to participate in waste separation at source; recycling stations are provided on every floor."
+    },
+    {
+      "id": "POL-003",
+      "title": "Tenant Fit-Out & Building Works Policy",
+      "category": "Policy",
+      "access_level": "staff",
+      "doc_ref": "GP-POL-022 v1.4",
+      "section": "Section 3 — Approvals & Contractors",
+      "content": "No tenant installation or alteration may commence without written approval from the Centre or Building Manager. Tenants must submit fit-out drawings for review at least 15 business days before works begin. Only contractors who have submitted a valid letter of good standing (COIDA), public liability cover of at least R10 million, and a method statement may work on site. Hot works require a permit issued per the Technical Runbook RUN-003. All works affecting fire detection, sprinklers or HVAC must be signed off by the building's registered competent person before the space is re-occupied."
+    },
+    {
+      "id": "LSE-001",
+      "title": "Standard Office Lease — Operating Costs & Recoveries",
+      "category": "Lease Document",
+      "access_level": "staff",
+      "doc_ref": "GP-LSE-STD-OFF v5.1",
+      "section": "Clause 12 — Operating Costs",
+      "content": "The tenant is liable for a pro-rata share of operating costs, calculated as the tenant's GLA divided by the total lettable GLA of the building. Recoverable operating costs include rates and taxes, building insurance, security, cleaning of common areas, lift maintenance, and management fees. Operating costs are reconciled annually within 120 days of the building's financial year-end; any over- or under-recovery is credited or invoiced to the tenant. Escalation on base rental is fixed at the rate stated in the lease schedule (typically 7% to 8% per annum) and applies on each anniversary of the lease commencement date."
+    },
+    {
+      "id": "LSE-002",
+      "title": "Lease Renewal & Early Termination Procedure",
+      "category": "Lease Document",
+      "access_level": "staff",
+      "doc_ref": "GP-LSE-PROC-02 v2.3",
+      "section": "Clause 7 — Renewal Options",
+      "content": "A tenant wishing to renew must give written notice of intention to renew no later than 6 months before lease expiry. Renewal rentals are set at prevailing market rates and are not automatically equal to the escalated expiring rental. Early termination is permitted only where the lease contains a break clause; where it does, the tenant must give the stated notice (usually 6 months) and settle any unamortised tenant installation and broker commission costs. A tenant that holds over after expiry without a renewal is liable for rental at 125% of the last monthly rental until the premises are vacated."
+    },
+    {
+      "id": "LSE-003",
+      "title": "Retail Lease — Trading Hours & Turnover Rental",
+      "category": "Lease Document",
+      "access_level": "management",
+      "doc_ref": "GP-LSE-RET-04 v3.0",
+      "section": "Clause 9 — Turnover Rental",
+      "content": "Retail tenants in regional and super-regional shopping centres are required to trade during the centre's core trading hours and may not close or 'go dark' without the landlord's consent. Where the lease provides for turnover rental, the tenant pays the greater of the base rental or an agreed percentage of monthly turnover. Tenants must submit certified monthly turnover figures by the 7th of the following month. Persistent under-trading or failure to submit turnover certificates is a material breach and may trigger the remedies in Clause 20. This clause contains commercially sensitive terms and is restricted to management."
+    },
+    {
+      "id": "SOP-001",
+      "title": "Tenant Maintenance Request SOP",
+      "category": "SOP",
+      "access_level": "public",
+      "doc_ref": "GP-SOP-11 v4.0",
+      "section": "Steps 1–5 — Logging a Request",
+      "content": "Tenants log maintenance requests through the tenant portal or by calling the building help desk. Each request is assigned a priority: P1 (safety or security risk, e.g. no power, water leak, lift entrapment) is attended within 1 hour; P2 (business-affecting, e.g. air-conditioning failure in occupied space) within 4 hours; P3 (routine, e.g. a flickering light) within 2 business days. The help desk issues a reference number on logging. Status updates are sent at logging, dispatch, and closure. A request is only closed once the tenant confirms the issue is resolved, or after 48 hours of no response following attempted contact."
+    },
+    {
+      "id": "SOP-002",
+      "title": "Emergency Evacuation SOP",
+      "category": "SOP",
+      "access_level": "public",
+      "doc_ref": "GP-SOP-03 v2.1",
+      "section": "Steps — On Hearing the Alarm",
+      "content": "On a continuous evacuation alarm, all occupants must stop work, leave by the nearest marked fire escape, and proceed to the designated assembly point. Do not use lifts. Floor wardens sweep their floor and report headcount to the chief warden at the assembly point. Nobody re-enters the building until the fire department or the chief warden declares it safe. Each building runs a full evacuation drill at least twice a year; results and evacuation times are recorded and reviewed by the Building Manager."
+    },
+    {
+      "id": "SOP-003",
+      "title": "New Tenant Onboarding SOP",
+      "category": "SOP",
+      "access_level": "staff",
+      "doc_ref": "GP-SOP-18 v1.2",
+      "section": "Steps 1–8 — Beneficial Occupation",
+      "content": "Before a new tenant takes beneficial occupation, the leasing administrator confirms the signed lease is loaded in MDA, the deposit or guarantee is received, and the first month's rental is invoiced. Building Management conducts a joint snag inspection with the tenant and records the premises condition with photos. Access tags and parking are activated only after the deposit clears. The tenant is issued the building house rules, emergency procedures (SOP-003 Evacuation), and help desk details. A welcome handover pack is emailed on day one of occupation."
+    },
+    {
+      "id": "RUN-001",
+      "title": "HVAC / BMS Fault Response Runbook",
+      "category": "Technical Runbook",
+      "access_level": "staff",
+      "doc_ref": "GP-RUN-007 v2.5",
+      "section": "Procedure — Chiller / BMS Alarm",
+      "content": "When the Building Management System (BMS) raises a chiller or air-handling alarm, the duty technician acknowledges the alarm within 15 minutes. First checks: confirm power supply and that the chiller is not in a safety lockout, check chilled-water flow and pressure, and review the BMS fault log for trips. If a chiller has tripped on high pressure, do not reset more than once; a second trip must be escalated to the mechanical contractor. For a full plant failure in an occupied building during business hours, raise a P1 and notify the Building Manager and affected tenants with an expected restoration time."
+    },
+    {
+      "id": "RUN-002",
+      "title": "Loadshedding & Generator Runbook",
+      "category": "Technical Runbook",
+      "access_level": "staff",
+      "doc_ref": "GP-RUN-012 v3.1",
+      "section": "Procedure — Supply Interruption",
+      "content": "On a municipal supply interruption, standby generators serve essential loads: fire systems, emergency lighting, lifts (one per bank), security, and in A-grade buildings the base-build HVAC. Generators must carry a minimum of 8 hours of diesel at all times; the duty technician confirms fuel level at the start of each shift and arranges refuelling before the tank drops below 50%. Where a building is on the wheeled renewable energy programme, confirm the contracted supply is carrying the agreed load before starting diesel. Log every changeover event with start time, load, and restoration time."
+    },
+    {
+      "id": "RUN-003",
+      "title": "Hot Works Permit Runbook",
+      "category": "Technical Runbook",
+      "access_level": "staff",
+      "doc_ref": "GP-RUN-003 v1.0",
+      "section": "Procedure — Issuing a Permit",
+      "content": "Hot works (welding, grinding, cutting, soldering) require a permit before work starts. The permit issuer confirms a fire extinguisher is on hand, combustibles within 10 metres are removed or screened, and the nearest smoke detector is isolated for the work area only (and logged). A fire watch is maintained during the work and for at least 60 minutes after it ends. At the end of the permit the issuer re-enables any isolated detection and confirms the area is cold before signing off. Permits are valid for a single shift only."
+    },
+    {
+      "id": "POL-004",
+      "title": "Arrears & Credit Control Policy",
+      "category": "Policy",
+      "access_level": "management",
+      "doc_ref": "GP-POL-031 v2.2",
+      "section": "Section 5 — Collection Steps",
+      "content": "Rental is due in advance on the first day of each month. An account is in arrears from the 2nd. The collections process is: a reminder on day 3, a formal letter of demand on day 7, suspension of access tags and parking on day 14 where the lease permits, and handover to attorneys on day 30. Interest on arrears accrues at the prime rate plus 2%. Any payment arrangement outside this process must be approved in writing by the Regional Asset Manager. This policy contains sensitive commercial thresholds and is restricted to management."
+    },
+    {
+      "id": "POL-005",
+      "title": "Visitor & Building Access Security Policy",
+      "category": "Policy",
+      "access_level": "public",
+      "doc_ref": "GP-POL-008 v2.6",
+      "section": "Section 3 — Visitor Sign-In",
+      "content": "All visitors must sign in at reception, present a valid photo ID, and be issued a visitor badge that is worn visibly at all times. Visitors are escorted or pre-authorised by the host tenant, who is responsible for their visitor while on the premises. Deliveries and couriers use the designated goods entrance and loading bay, not the main lobby. CCTV operates in all common areas and parking basements; footage is retained for 30 days. Tailgating through access-controlled doors is prohibited; each person must badge in individually."
+    },
+    {
+      "id": "POL-006",
+      "title": "Pet & Service Animal Policy",
+      "category": "Policy",
+      "access_level": "public",
+      "doc_ref": "GP-POL-019 v1.1",
+      "section": "Section 2 — Permitted Animals",
+      "content": "Pets are not permitted in office buildings except in designated pet-friendly buildings where the house rules expressly allow them. Where pets are allowed, owners must keep them leashed in common areas, clean up after them, and ensure they do not disturb other occupants. Service animals assisting a person with a disability are always permitted and are exempt from pet restrictions; no documentation is required beyond the handler's confirmation that the animal is a working service animal."
+    },
+    {
+      "id": "POL-007",
+      "title": "Health & Safety and Incident Reporting Policy",
+      "category": "Policy",
+      "access_level": "public",
+      "doc_ref": "GP-POL-005 v4.1",
+      "section": "Section 6 — Reporting an Incident",
+      "content": "Any injury, near-miss, spillage, or security incident on the premises must be reported to Building Management as soon as it is safe to do so, and logged in the incident register within 24 hours. Serious injuries are reported to the authorities as required by the Occupational Health and Safety Act. First-aid stations and trained first-aiders are available in every building; their locations are shown on the building notice boards. Tenants must ensure their own staff are briefed on emergency procedures during induction."
+    },
+    {
+      "id": "POL-008",
+      "title": "Green Lease & Tenant Sustainability Collaboration Policy",
+      "category": "Policy",
+      "access_level": "staff",
+      "doc_ref": "GP-POL-027 v1.0",
+      "section": "Section 4 — Shared Targets",
+      "content": "Growthpoint offers green lease provisions through which landlord and tenant commit to shared sustainability targets, data sharing, and performance reporting. Under a green lease the tenant agrees to share metered energy and water consumption, participate in waste recycling, and align fit-outs with the building's Green Star rating. In return the landlord commits to efficiency retrofits, renewable supply where available, and transparent reporting. Green lease performance is reviewed annually with the tenant and feeds into the building's GRESB and net-zero reporting."
+    },
+    {
+      "id": "POL-009",
+      "title": "Net-Zero Carbon Pathway & Green Bond Allocation Policy",
+      "category": "Policy",
+      "access_level": "management",
+      "doc_ref": "GP-POL-033 v1.2",
+      "section": "Section 2 — Capital Allocation",
+      "content": "Growthpoint's decarbonisation pathway targets net-zero carbon across the managed portfolio by 2050, with interim intensity-reduction milestones reviewed each financial year. Proceeds from the green bond programme are ring-fenced for eligible projects: solar PV installations, LED relighting, HVAC efficiency upgrades, water reclamation, and Green Star certification of existing buildings. Allocation decisions and expected carbon abatement per project are approved by the Sustainability Investment Committee. This policy contains forward capital commitments and is restricted to management."
+    },
+    {
+      "id": "LSE-004",
+      "title": "Industrial & Logistics Lease — Warehousing Terms",
+      "category": "Lease Document",
+      "access_level": "staff",
+      "doc_ref": "GP-LSE-IND-07 v2.2",
+      "section": "Clause 5 — Permitted Use & Loading",
+      "content": "Industrial premises may be used only for the permitted use stated in the lease schedule (typically warehousing, light manufacturing, or distribution). The tenant is responsible for maintaining yard areas, dock levellers, and roller-shutter doors in good working order. Floor loading must not exceed the stated design limit, and racking installations require landlord approval and an engineer's sign-off. Hazardous or flammable goods may be stored only with written consent and proof of compliant handling and fire cover. Any environmental contamination caused by the tenant must be remediated at the tenant's cost on exit."
+    },
+    {
+      "id": "LSE-005",
+      "title": "Deposits, Guarantees & Reinstatement at Lease End",
+      "category": "Lease Document",
+      "access_level": "staff",
+      "doc_ref": "GP-LSE-PROC-05 v1.3",
+      "section": "Clause 15 — Reinstatement",
+      "content": "The tenant lodges a deposit or an acceptable bank guarantee equal to the amount stated in the lease schedule (commonly two to three months' gross rental) before taking occupation. At lease end the tenant must reinstate the premises to the condition recorded at the beginning snag inspection, fair wear and tear excepted, including removing tenant installations unless the landlord elects to retain them. The deposit is refunded, less any amounts owing and the cost of outstanding reinstatement, within 30 days of a satisfactory exit inspection."
+    },
+    {
+      "id": "SOP-004",
+      "title": "After-Hours HVAC & Access Request SOP",
+      "category": "SOP",
+      "access_level": "public",
+      "doc_ref": "GP-SOP-22 v1.0",
+      "section": "Steps 1–4 — Requesting After-Hours Services",
+      "content": "Standard air-conditioning runs during building core hours (usually 07:00 to 18:00 on weekdays). Tenants needing heating or cooling outside those hours submit an after-hours HVAC request through the tenant portal at least 4 business hours in advance, specifying the floor, date, and time window. After-hours HVAC is billed to the tenant at the published tariff per hour per zone. After-hours building access for staff requires an activated access tag; visitors outside core hours must be pre-authorised by the tenant and signed in with security."
+    },
+    {
+      "id": "SOP-005",
+      "title": "Waste Management & Recycling SOP",
+      "category": "SOP",
+      "access_level": "public",
+      "doc_ref": "GP-SOP-14 v2.0",
+      "section": "Steps — Separation at Source",
+      "content": "Each floor has recycling stations for paper, plastic, glass, and tins, alongside general waste. Tenants separate recyclables at source and must not place liquids, food waste, or hazardous materials in recycling bins. Confidential paper is placed in the locked shredding consoles, not open recycling. Bulk waste and e-waste collections are arranged through Building Management with at least 48 hours' notice. Diversion-from-landfill rates are measured monthly and reported to tenants on green leases as part of the building's sustainability performance."
+    },
+    {
+      "id": "SOP-006",
+      "title": "Lift Entrapment & Breakdown Response SOP",
+      "category": "SOP",
+      "access_level": "staff",
+      "doc_ref": "GP-SOP-09 v3.2",
+      "section": "Procedure — Person Trapped in a Lift",
+      "content": "On report of a person trapped in a lift, the duty officer treats it as a P1 and keeps the occupant talking via the lift intercom to reassure them; occupants must never try to force the doors or climb out. The lift company is called out immediately under the maintenance contract, with a contractual response time of 60 minutes in business hours. If anyone is in medical distress, emergency services are called at once. The affected lift is locked out of service after release until the lift technician certifies it safe to return to use. Every entrapment is logged and reviewed."
+    },
+    {
+      "id": "RUN-004",
+      "title": "Solar PV & Backup Power Runbook",
+      "category": "Technical Runbook",
+      "access_level": "staff",
+      "doc_ref": "GP-RUN-018 v1.1",
+      "section": "Procedure — PV & Inverter Checks",
+      "content": "Rooftop solar PV runs grid-tied with inverters that synchronise to the building supply; on a grid outage the system transitions to the configured backup mode (battery or generator) per the building's design. The duty technician checks the inverter dashboard daily for faults, string under-performance, and earth-leakage alarms. PV output and self-consumption are logged for the sustainability report. Never work on PV DC wiring in rain or without isolating the array and confirming zero volts; only accredited PV technicians may service the array."
+    },
+    {
+      "id": "RUN-005",
+      "title": "Water Reticulation & Leak Response Runbook",
+      "category": "Technical Runbook",
+      "access_level": "staff",
+      "doc_ref": "GP-RUN-021 v1.0",
+      "section": "Procedure — Suspected Leak",
+      "content": "A sudden drop in reservoir level or a spike on the smart water meter triggers a leak investigation. The duty technician isolates the affected section at the nearest valve, checks pump-room pressure, and inspects risers and ceiling voids on the floors below for water ingress. Where a building has a water-reclamation or rainwater-harvesting system, confirm the municipal backup supply is open before isolating. Protect electrical equipment and tenant property first, place wet-floor signage, and log the event with photos. Major leaks affecting occupied floors are raised as P1."
+    }
+  ]
+}

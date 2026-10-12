@@ -1,0 +1,7 @@
+streamlit==1.39.0
+# boto3/botocore must be new enough for the `s3vectors` client and Bedrock KB
+# S3 Vectors storage support, both of which landed together in 1.39.5 (Jul 2025).
+# 1.40.76 is a verified-installable, conservative stable release past that point.
+boto3==1.40.76
+botocore==1.40.76
+python-dotenv==1.0.1
