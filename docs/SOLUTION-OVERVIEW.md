@@ -121,7 +121,8 @@ Runtime, left to right:
 2. The **Streamlit app** orchestrates the request. In this PoC it runs on Streamlit Community Cloud and signs its AWS calls with a scoped **AWS IAM** credential (shown as a note, not a step, because it only authenticates the calls).
 3. **Bedrock Retrieve** applies the `access_level` metadata filter and asks for the top five permitted chunks.
 4. **Amazon S3 Vectors** embeds the question and runs the cosine similarity search.
-5. **Claude Haiku 4.5 on Amazon Bedrock** receives the retrieved context through `ConverseStream` and streams the grounded answer, with compact numbered sources, back through the app.
+5. **Claude Haiku 4.5 on Amazon Bedrock** receives the retrieved context through `ConverseStream` and generates the grounded answer.
+6. **The answer streams back to the user** through the app, with compact numbered sources, appearing word by word as it is generated.
 
 The app orchestrates both API calls; S3 Vectors does not call the model directly. For production the recommendation is simple: host the app inside AWS, swap the scoped key for an IAM role, and send telemetry to Amazon CloudWatch.
 
@@ -184,7 +185,8 @@ Runtime, left to right:
 2. **Microsoft Entra ID** returns a verified token and the user’s group claims — the key difference from the PoC’s simulated role dropdown.
 3. **Azure App Service** (or Container Apps) hosts the Streamlit application inside the Azure boundary.
 4. **Azure AI Search** runs a hybrid vector-plus-keyword query with a security filter on group or ACL fields, so only permitted chunks are returned. **Hybrid search** is an advantage over the demo’s semantic-only path when users ask with exact lease references, site names or technical codes. See [hybrid search](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview), the [document-level access overview](https://learn.microsoft.com/en-us/azure/search/search-document-level-access-overview) and the [security filter pattern](https://learn.microsoft.com/en-us/azure/search/search-security-trimming-for-azure-search).
-5. **Azure OpenAI** (for example GPT-4o mini) streams the grounded answer with citations from the permitted results only.
+5. **Azure OpenAI** (for example GPT-4o mini) generates the grounded answer from the permitted results only.
+6. **The answer streams back to the user** with citations, appearing as it is generated.
 
 Supporting services sit around this flow rather than inside it: a **Managed Identity** lets the app reach Azure services without stored keys, **Azure Key Vault** holds any unavoidable secrets, and **Azure Monitor** with **Application Insights** collects metrics, traces and failures.
 
