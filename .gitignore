@@ -14,3 +14,6 @@ assets/ui_*.png
 
 # docx build intermediates (the .docx itself is committed)
 docs/_build/
+
+# raw diagram-MCP intermediates (final PNGs are copied to docs/diagrams/)
+docs/diagrams/mcp-v2/

@@ -1,0 +1,155 @@
+{
+  "note": "Official provider SVGs copied without visual modification; filenames and locations only were normalized.",
+  "assets": [
+    {
+      "provider": "aws",
+      "service": "Users/client",
+      "release": "AWS Architecture Icons 2026-07-31",
+      "source_page": "https://aws.amazon.com/architecture/icons/",
+      "download_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+      "original_archive_path": "Resource-Icons_07312026/Res_General-Icons/Res_48_Dark/Res_Authenticated-User_48_Dark.svg",
+      "local_path": "icons/aws/users.svg",
+      "sha256": "537f8f72382449afadf023e0ae92b40fd71530f27defb357cb6829922404e3e6"
+    },
+    {
+      "provider": "aws",
+      "service": "AWS Identity and Access Management",
+      "release": "AWS Architecture Icons 2026-07-31",
+      "source_page": "https://aws.amazon.com/architecture/icons/",
+      "download_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+      "original_archive_path": "Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Identity-and-Access-Management_64.svg",
+      "local_path": "icons/aws/iam.svg",
+      "sha256": "3135793557c065d0481a3985ccc0574b36278d56a2e2c5d59107d0d28f51b827"
+    },
+    {
+      "provider": "aws",
+      "service": "Amazon S3",
+      "release": "AWS Architecture Icons 2026-07-31",
+      "source_page": "https://aws.amazon.com/architecture/icons/",
+      "download_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+      "original_archive_path": "Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-Simple-Storage-Service_64.svg",
+      "local_path": "icons/aws/s3.svg",
+      "sha256": "b92c5101cc6565dd12df37655802279f8fba0c719279f62f93106d26750b36c6"
+    },
+    {
+      "provider": "aws",
+      "service": "Amazon Bedrock",
+      "release": "AWS Architecture Icons 2026-07-31",
+      "source_page": "https://aws.amazon.com/architecture/icons/",
+      "download_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+      "original_archive_path": "Architecture-Service-Icons_07312026/Arch_Artificial-Intelligence/64/Arch_Amazon-Bedrock_64.svg",
+      "local_path": "icons/aws/bedrock.svg",
+      "sha256": "80fa4190bb55bde5c3004ed8d2f16bf25db28d230cf46760813f2171636ea105"
+    },
+    {
+      "provider": "aws",
+      "service": "Amazon S3 Vectors",
+      "release": "AWS Architecture Icons 2026-07-31",
+      "source_page": "https://aws.amazon.com/architecture/icons/",
+      "download_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+      "original_archive_path": "Resource-Icons_07312026/Res_Storage/Res_Amazon-Simple-Storage-Service_S3-Vectors_48.svg",
+      "local_path": "icons/aws/s3-vectors.svg",
+      "sha256": "7b008596d2c790ddce736d88663971cb0e442a6af391169ea97159902181438f"
+    },
+    {
+      "provider": "aws",
+      "service": "Amazon CloudWatch",
+      "release": "AWS Architecture Icons 2026-07-31",
+      "source_page": "https://aws.amazon.com/architecture/icons/",
+      "download_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+      "original_archive_path": "Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_Amazon-CloudWatch_64.svg",
+      "local_path": "icons/aws/cloudwatch.svg",
+      "sha256": "a84b5b88172ab39170eaa6154345332d755758a37cda6a5580981cf679e01c0b"
+    },
+    {
+      "provider": "azure",
+      "service": "Azure Blob Storage / ADLS Gen2",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/storage/10086-icon-service-Storage-Accounts.svg",
+      "local_path": "icons/azure/storage.svg",
+      "sha256": "7190d3bb14ce30ce74bd0af873915830fe821e8c5f6ef6f3149e6f7cfb2aa4f7"
+    },
+    {
+      "provider": "azure",
+      "service": "Azure AI Search",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/10044-icon-service-Cognitive-Search.svg",
+      "local_path": "icons/azure/ai-search.svg",
+      "sha256": "f7af1213ce089236593835cb5564d6d3f01358cba6488fe562aa8bbc8adc3b38"
+    },
+    {
+      "provider": "azure",
+      "service": "Azure OpenAI",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/03438-icon-service-Azure-OpenAI.svg",
+      "local_path": "icons/azure/openai.svg",
+      "sha256": "4859f2c78b6b81acbbaf94e7348cb7dcbe97955a038be903de01cf46a7206aad"
+    },
+    {
+      "provider": "azure",
+      "service": "Azure App Service",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/app services/10035-icon-service-App-Services.svg",
+      "local_path": "icons/azure/app-service.svg",
+      "sha256": "529d83fc80637a96b6d27f6cfac7536e1c5f9b1b67f58aef4e2e3d6f47fd4925"
+    },
+    {
+      "provider": "azure",
+      "service": "Managed Identity",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/identity/10227-icon-service-Entra-Managed-Identities.svg",
+      "local_path": "icons/azure/managed-identity.svg",
+      "sha256": "2100bf636095348d0b75220450b5d88672c720f49c79972e95916e41e91ae169"
+    },
+    {
+      "provider": "azure",
+      "service": "Azure Key Vault",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/security/10245-icon-service-Key-Vaults.svg",
+      "local_path": "icons/azure/key-vault.svg",
+      "sha256": "712b426f54f0fc50d0816dc79df709daa7ac5f93ccaf4e9b3527f627f6e9ad97"
+    },
+    {
+      "provider": "azure",
+      "service": "Azure Monitor",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/monitor/00001-icon-service-Monitor.svg",
+      "local_path": "icons/azure/monitor.svg",
+      "sha256": "1396f59a7d8fd7505a423842b987c9b343a092263d1ab5c7b0d94d58d8b17448"
+    },
+    {
+      "provider": "azure",
+      "service": "Application Insights",
+      "release": "Azure Public Service Icons V24",
+      "source_page": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+      "download_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "original_archive_path": "Azure_Public_Service_Icons/Icons/monitor/00012-icon-service-Application-Insights.svg",
+      "local_path": "icons/azure/app-insights.svg",
+      "sha256": "36c73dea8b1598fbfff84890a2b409600f1339eec8c1bf1a896439e9da8f9dca"
+    },
+    {
+      "provider": "azure",
+      "service": "Microsoft Entra ID",
+      "release": "Microsoft Entra architecture icons - Oct 2023",
+      "source_page": "https://learn.microsoft.com/en-us/entra/architecture/architecture-icons",
+      "download_url": "https://download.microsoft.com/download/3/1/a/31a56038-856a-4489-88e4-ee5a1c4352be/Microsoft%20Entra%20architecture%20icons%20-%20Oct%202023.zip",
+      "original_archive_path": "Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra ID color icon.svg",
+      "local_path": "icons/azure/entra-id.svg",
+      "sha256": "efd9f54562bfb78bf3c77aecdd5fc31b61fce8a1cec78c4370b41fc470e54eda"
+    }
+  ]
+}
