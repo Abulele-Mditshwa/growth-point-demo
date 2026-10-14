@@ -11,3 +11,6 @@ assets/ui_*.png
 
 # internal workflow artifacts
 .agents/
+
+# docx build intermediates (the .docx itself is committed)
+docs/_build/
